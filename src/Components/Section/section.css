@@ -1,0 +1,51 @@
+section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+section > div:first-child {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  align-items: center;
+  margin-right: 15px;
+}
+
+section > div:nth-child(2) > img {
+  border-radius: 5px;
+}
+section > div:last-child > p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+section > div:last-child > div:last-child {
+  display: flex;
+  align-items: center;
+  font-family: "inter", sans-serif;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+section > div:last-child > div:last-child > p {
+  width: 60px;
+}
+section li {
+  color: red;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+section li i {
+  font-size: 5px;
+}
